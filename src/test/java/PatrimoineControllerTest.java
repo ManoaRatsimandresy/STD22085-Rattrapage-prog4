@@ -64,7 +64,7 @@ public class PatrimoineControllerTest {
     }
 
         @Test
-    public void CreateOrUpdatePatrimoine() throws Exception {
+    public void UpdatePatrimoine() throws Exception {
         String patrimoineJson = "{\"possesseur\":\"Jane Doe\"}";
 
         mockMvc.perform(put("/patrimoines/2")
